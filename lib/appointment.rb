@@ -1,9 +1,9 @@
-class Appointment 
-  
+class Appointment
+
   @@all = []
 
   def self.all
-    @@all 
+    @@all
   end
 
 
