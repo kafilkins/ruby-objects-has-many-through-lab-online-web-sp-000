@@ -13,7 +13,7 @@ class Artist
   end
 
   def songs
-    Song.self.all
+    self.Song.all
   end
 
 end
