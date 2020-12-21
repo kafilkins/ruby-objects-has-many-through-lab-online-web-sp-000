@@ -13,7 +13,7 @@ class Doctor
   end
 
   def patients
-    appointments.map {|appointment| patients.appointment}
+    appointments.map {|appointment| appointment.patients}
   end
 
   def self.all
