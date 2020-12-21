@@ -1,10 +1,10 @@
 class Patient
-  attr_accessor :name 
-  
+  attr_accessor :name
+
   def initialize(name)
     @name=name
   end
-  
+
    def new_appointment(doctor, date)
     Appointment.new(date, self, doctor)
   end
@@ -20,5 +20,5 @@ class Patient
       appointment.doctor
     end
   end
-  
+
 end
