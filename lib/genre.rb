@@ -19,7 +19,7 @@ class Genre
   end
 
   def artists
-    songs.all 
+    songs.all
   end
 
 end
