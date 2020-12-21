@@ -13,7 +13,8 @@ class Artist
   end
 
   def songs
-
+    self.songs do |songs| 
+    
   end
 
 end
