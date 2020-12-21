@@ -18,4 +18,7 @@ class Genre
     Song.all
   end
 
+  def artists
+    songs.artists
+  end
 end
