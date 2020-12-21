@@ -28,4 +28,8 @@ class Patient
     end
   end
 
+  def patients
+    appointment.map {|appointment| appointment.patient}
+  end
+
 end
